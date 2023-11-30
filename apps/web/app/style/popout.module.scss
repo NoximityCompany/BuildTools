@@ -1,0 +1,26 @@
+@import '../globals.scss';
+@import '../colors.scss';
+.popout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary;
+    padding: 15px;
+    border-radius: 5px;
+    height: 75px;
+    width: 1200px;
+    margin: 0 auto;
+    a {
+        color: $text;
+        text-decoration: none;
+        margin: 0 15px;
+        transition: color 0.3s;
+        &:hover {
+            color: $accent;
+            //set cursor to pointer
+            cursor: pointer;
+            scale: 1.1;
+            transition: scale 0.5s;
+        }
+    }
+}

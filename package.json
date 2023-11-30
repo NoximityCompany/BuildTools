@@ -10,11 +10,17 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@types/react-modal": "^3.16.3",
     "prettier": "^3.1.0",
+    "react": "^18.2.0",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "react-modal": "^3.16.1",
+    "sass": "^1.69.5"
   }
 }

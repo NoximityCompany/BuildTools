@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/minecraftia?styles=54351');
+
+$text: #f2fbfd;
+$background: #051d24;
+$primary: #7ed4ed;
+$secondary: #082f3a;
+$accent: #2dbae1;
+
+$minecraft-black: #000000;
+$minecraft-dark-blue: #0000aa;
+$minecraft-dark-green: #00aa00;
+$minecraft-dark-aqua: #00aaaa;
+$minecraft-dark-red: #aa0000;
+$minecraft-dark-purple: #aa00aa;
+$minecraft-gold: #ffaa00;
+$minecraft-gray: #aaaaaa;
+$minecraft-dark-gray: #555555;
+$minecraft-blue: #5555ff;
+$minecraft-green: #55ff55;
+$minecraft-aqua: #55ffff;
+$minecraft-red: #ff5555;
+$minecraft-light-purple: #ff55ff;
+$minecraft-yellow: #ffff55;
+$minecraft-white: #ffffff;
+
+$minecraft-colors: (
+    black: $minecraft-black,
+    dark-blue: $minecraft-dark-blue,
+    dark-green: $minecraft-dark-green,
+    dark-aqua: $minecraft-dark-aqua,
+    dark-red: $minecraft-dark-red,
+    dark-purple: $minecraft-dark-purple,
+    gold: $minecraft-gold,
+    gray: $minecraft-gray,
+    dark-gray: $minecraft-dark-gray,
+    blue: $minecraft-blue,
+    green: $minecraft-green,
+    aqua: $minecraft-aqua,
+    red: $minecraft-red,
+    light-purple: $minecraft-light-purple,
+    yellow: $minecraft-yellow,
+    white: $minecraft-white
+);
